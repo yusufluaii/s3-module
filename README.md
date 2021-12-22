@@ -9,7 +9,7 @@
 1.  Create Bucket S3
     > <p>
          module "terraform_state" {
-         source = "github.com/yusufluaii/terraform-module/aws/modules/bucket-state"
+         source = "github.com/yusufluaii/s3-module/aws/modules/bucket-state"
          lock_is_needed = false
          bucket_name = var.my_bucket
          object_state = var.my_object  
